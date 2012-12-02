@@ -2,7 +2,7 @@
 
 Horrible name. Bad Code. First Objective-C App.
 
-Simple queries CoreLocation and outputs the Latitude/Longitude of the
+Simply queries CoreLocation and outputs the Latitude/Longitude of the
 computer to the command line. The plan is to be able to use this along
 side WeatherUnderground to be able to get the current weather in my tmux
 status line.
