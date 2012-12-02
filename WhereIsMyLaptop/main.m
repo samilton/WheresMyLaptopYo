@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "LocationInterface.h"
 
 int main(int argc, const char * argv[])
 {
@@ -14,8 +15,11 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        LocationInterface* li = [[LocationInterface alloc] init];
         
+        [li printLocation];
+
+
     }
     return 0;
 }

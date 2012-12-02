@@ -10,6 +10,8 @@
 		2291452816698CD200C08F8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2291452716698CD200C08F8E /* Foundation.framework */; };
 		2291452B16698CD200C08F8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291452A16698CD200C08F8E /* main.m */; };
 		2291452F16698CD200C08F8E /* WhereIsMyLaptop.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2291452E16698CD200C08F8E /* WhereIsMyLaptop.1 */; };
+		2291453616698D8E00C08F8E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2291453516698D8E00C08F8E /* CoreLocation.framework */; };
+		2291455A16698F6500C08F8E /* LocationInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291455916698F6500C08F8E /* LocationInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,9 @@
 		2291452A16698CD200C08F8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2291452D16698CD200C08F8E /* WhereIsMyLaptop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhereIsMyLaptop-Prefix.pch"; sourceTree = "<group>"; };
 		2291452E16698CD200C08F8E /* WhereIsMyLaptop.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WhereIsMyLaptop.1; sourceTree = "<group>"; };
+		2291453516698D8E00C08F8E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2291455816698F6500C08F8E /* LocationInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInterface.h; sourceTree = "<group>"; };
+		2291455916698F6500C08F8E /* LocationInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2291453616698D8E00C08F8E /* CoreLocation.framework in Frameworks */,
 				2291452816698CD200C08F8E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +54,7 @@
 		2291451816698CD200C08F8E = {
 			isa = PBXGroup;
 			children = (
+				2291453516698D8E00C08F8E /* CoreLocation.framework */,
 				2291452916698CD200C08F8E /* WhereIsMyLaptop */,
 				2291452616698CD200C08F8E /* Frameworks */,
 				2291452416698CD200C08F8E /* Products */,
@@ -74,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				2291452A16698CD200C08F8E /* main.m */,
+				2291455816698F6500C08F8E /* LocationInterface.h */,
+				2291455916698F6500C08F8E /* LocationInterface.m */,
 				2291452E16698CD200C08F8E /* WhereIsMyLaptop.1 */,
 				2291452C16698CD200C08F8E /* Supporting Files */,
 			);
@@ -140,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2291452B16698CD200C08F8E /* main.m in Sources */,
+				2291455A16698F6500C08F8E /* LocationInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +246,7 @@
 				2291453416698CD200C08F8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
